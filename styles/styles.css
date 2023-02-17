@@ -1,0 +1,133 @@
+:root{
+    --c-principal: #13005A;
+    --c-menu: #402268;
+    --c-secundario: #1C82AD;
+    --c-contraste: #03C988;
+    --t-principal:  'Roboto', sans-serif;
+    --t-secundaria: 'Staatliches', cursive;
+    --t-titulos:  'Anton', sans-serif;
+}
+
+body{
+    background-color: var(--c-principal);
+}
+
+h1{
+    font-family: var(--t-titulos);
+    color: var(--c-contraste);
+    font-size: 50px;
+}
+
+/* Encabezado */
+
+.encabezado{
+    background-color: var(--c-menu);
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+}
+
+.encabezado-div{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.encabezado-img{
+    width: 90%;
+    border-radius: 50%;
+}
+
+.encabezado-item{
+    text-align: left;
+}
+
+.encabezado-a{
+    color: var(--c-contraste);
+}
+
+/* Main */
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    margin-left: 17rem;
+}
+
+/* Inicio */
+
+.inicio{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.inicio-div{
+    border: 1px solid black;
+}
+
+/* Sobre mi */
+
+.sobre-mi{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.sobre-mi-div{
+border: 1px solid black;
+}
+
+/*Portafolio */
+
+.portafolio{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.portafolio-div{
+    border: 1px solid black;
+}
+
+/*Educación */
+
+.educacion{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.educacion-div{
+    border: 1px solid black;
+}
+
+/* Habilidades */
+
+.skills{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.skills-div{
+    border: 1px solid black;
+}
+
+/* Contacto */
+
+.contacto{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.contacto-div{
+    border: 1px solid black;
+}

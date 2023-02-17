@@ -5,33 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Manga Coder Crafter</title>
 </head>
 <body>
 
     <!-- Navegador -->
 
-    <header>
-        <img src="img/selfie.jpg" alt="Manga Coder Crafter">
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre mi</a></li>
-                <li><a href="#">Portafolio</a></li>
-                <li><a href="#">Educación</a></li>
-                <li><a href="#">Habilidades</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
+    <header class="encabezado">
+
+        <div class="encabezado-div">
+            <div class="encabezado-img-div">
+                <img class="encabezado-img" src="img/selfie.jpg" alt="Manga Coder Crafter">
+            </div>
+            <div class="encabezado-navegador-div">
+                <nav class="encabezado-navegador">
+                <ul>
+                    <li class="encabezado-item"><a class="encabezado-a" href="#">Inicio</a></li>
+                    <li class="encabezado-item"><a class="encabezado-a" href="#sobre-mi">Sobre mi</a></li>
+                    <li class="encabezado-item"><a class="encabezado-a" href="#portafolio">Portafolio</a></li>
+                    <li class="encabezado-item"><a class="encabezado-a" href="#educacion">Educación</a></li>
+                    <li class="encabezado-item"><a class="encabezado-a" href="#skills">Habilidades</a></li>
+                    <li class="encabezado-item"><a class="encabezado-a" href="#contacto">Contacto</a></li>
+                </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
-<main>
+<main class="contenedor">
 
     <!-- Inicio -->
 
 <section class="inicio">
-
-    <h1>Manga Coder Crafter</h1>
+<div class="inicio-div">
+    <h1>Manga Code Crafter</h1>
 
     <h3>Yendo al mundo del desarrollo web</h3>
     <h3>Bienvenido a mi portafolio como desarrollador frontend treinee</h3>
@@ -46,13 +58,14 @@
         <a href="#"><i class="fa-brands fa-tiktok"></i></a>
         <a href="#"><i class="fa-brands fa-twitter"></i></a>
     </nav>
+</div>
 
 </section>
 
     <!-- Sobre mi -->
 
-<section class="sobre-mi">
-
+<section class="sobre-mi" id="sobre-mi">
+<div class="sobre-mi-div">
     <h2>Sobre mi</h2>
 
     <p>
@@ -68,13 +81,14 @@
     <p>
         Si queres estar en contacto conmigo escribime a manga.code.crafter@gmail.com
     </p>
-    
+</div>
+
 </section>
 
     <!-- Portafolio -->
 
-<section class="portafolio">
-
+<section class="portafolio" id="portafolio">
+<div class="portafolio-div">
     <h2>Portafolio</h2>
     
     <div>
@@ -94,12 +108,13 @@
         <i class="fa-brands fa-css3-alt"></i>
         <i class="fa-brands fa-js"></i>
     </div>
+</div>
 </section>
 
     <!-- Educación -->
 
-<section class="educacion">
-
+<section class="educacion" id="educacion">
+<div class="educacion-div">
     <h2>Educación</h2>
 
     <div>
@@ -113,13 +128,13 @@
         <p>Escuela de comercio de Bahia Blanca</p>
         <p>2023 - En progreso</p>
     </div>
-
+</div>
 </section>
 
     <!-- Skills -->
 
-<section class="skills">
-
+<section class="skills" id="skills">
+<div class="skills-div">
     <h2>Skills</h2>
 
     <div>
@@ -133,13 +148,13 @@
         <h3>Frameworks y Librerias</h3>
         <i class="fa-brands fa-bootstrap"></i>
     </div>
-
+</div>
 </section>
 
     <!-- Contacto -->
 
-<section class="contacto">
-
+<section class="contacto" id="contacto">
+<div class="contacto-div">
     <h2>Contactame!</h2>
 
     <div>
@@ -161,6 +176,7 @@
         <i class="fa-brands fa-css3-alt"></i>
         <i class="fa-brands fa-js"></i>
     </div>
+</div>
 </section>
 
 </main>
