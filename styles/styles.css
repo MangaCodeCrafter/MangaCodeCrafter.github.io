@@ -1,8 +1,9 @@
 :root{
     --c-principal: #13005A;
-    --c-menu: #402268;
+    --c-menu: #402bb4;
     --c-secundario: #1C82AD;
     --c-contraste: #03C988;
+    --c-contraste-sec: #c9ab03;
     --t-principal:  'Roboto', sans-serif;
     --t-secundaria: 'Staatliches', cursive;
     --t-titulos:  'Anton', sans-serif;
@@ -15,7 +16,24 @@ body{
 h1{
     font-family: var(--t-titulos);
     color: var(--c-contraste);
-    font-size: 50px;
+    font-size: calc(1.725rem + 5.7vw);
+}
+
+h2{
+    font-family: var(--t-titulos);
+    color: var(--c-contraste);
+    font-size: 3.5rem;
+}
+
+h3{
+    color: var(--c-secundario);
+    font-family: var(--t-principal);
+}
+
+p{
+    color: var(--c-secundario);
+    font-family: var(--t-principal);
+    font-size: 1.15rem;
 }
 
 /* Encabezado */
@@ -42,14 +60,28 @@ h1{
 .encabezado-img{
     width: 90%;
     border-radius: 50%;
+    margin-bottom: 5%;
+}
+
+.encabezado-lista{
+    list-style: none;
 }
 
 .encabezado-item{
     text-align: left;
+    margin-top: 0.5rem;
 }
 
 .encabezado-a{
     color: var(--c-contraste);
+    font-family: var(--t-principal);
+    text-decoration: none;
+    font-size: 1.15rem;
+    font-weight: 900;
+}
+
+.encabezado-a:hover{
+    color: var(--c-contraste-sec);
 }
 
 /* Main */
@@ -57,7 +89,8 @@ h1{
 .contenedor{
     display: flex;
     flex-direction: column;
-    margin-left: 17rem;
+    margin-left: 20rem;
+    width: 75%;
 }
 
 /* Inicio */
@@ -72,6 +105,122 @@ h1{
     border: 1px solid black;
 }
 
+.inicio-h1-cc{
+    color: var(--c-contraste-sec);
+}
+
+.inicio-h3{
+    color: var(--c-contraste-sec);
+}
+
+.inicio-h3-bigger{
+    font-size: 2.15rem;
+}
+
+.inicio-email{
+    color: var(--c-contraste);
+    cursor: pointer;
+    text-decoration: underline;
+    transition: .3s ease all;
+}
+
+.inicio-email:hover{
+    color: var(--c-contraste-sec);
+}
+
+.inicio-button{
+    margin: 1rem;
+    margin-bottom: 3rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 3rem;
+    background-color: var(--c-contraste);
+    font-family: var(--t-principal);
+    font-size: 2rem;
+    font-weight: 900;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.inicio-button::after{
+    content: "";
+    width: 1px;
+    height: 1px;
+    background: none;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transition: .3s ease-in-out all;
+    border-radius: 50%;
+    transform-origin: center;
+}
+
+.inicio-button:hover::after{
+    transform: scale(150);
+    background-color: var(--c-contraste-sec);
+}
+
+.inicio-button:hover{
+    background-color: #a38b02;
+}
+
+.inicio-button-span{
+    position: relative;
+    z-index: 2;
+}
+
+.inicio-social{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #03c9877e;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    transition: .3s ease all;
+    position: relative;
+    overflow: hidden;
+}
+
+.inicio-social::after{
+    content: "";
+    width: 1px;
+    height: 1px;
+    background: none;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transition: .3s ease-in-out all;
+    border-radius: 50%;
+    transform-origin: center;
+}
+
+.inicio-social:hover::after{
+    transform: scale(35);
+    background-color: var(--c-contraste-sec);
+}
+
+.inicio-social:hover{
+    background-color: #a38b02;
+}
+
+.fa-brands{
+    position: relative;
+    z-index: 2;
+}
 /* Sobre mi */
 
 .sobre-mi{
