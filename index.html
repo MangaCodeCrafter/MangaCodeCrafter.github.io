@@ -68,18 +68,18 @@
 <div class="sobre-mi-div">
     <h2>Sobre mi</h2>
 
-    <p>
+    <p class="p-principal">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. In, atque animi neque nulla nihil fuga dolor modi eos saepe architecto corrupti officia qui optio esse ut, unde tenetur repellendus labore.
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde iste neque, provident non delectus blanditiis sequi quia magnam rem beatae, ab doloremque, necessitatibus totam ut exercitationem cumque! Dolorem, necessitatibus ea!
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore eos in id vitae quidem doloremque. Accusamus voluptas velit tenetur doloribus quaerat explicabo possimus distinctio, sequi accusantium iste minima repudiandae!
     </p>
 
-    <p>
+    <p class="p-frase">
         Actualmente estudio para ampliar mi campo laboral y aplicar tecnologías que revolucionen el mundo
     </p>
 
-    <p>
-        Si queres estar en contacto conmigo escribime a manga.code.crafter@gmail.com
+    <p class="p-contacto">
+        Si queres estar en contacto conmigo escribime a <span class="inicio-email">manga.code.crafter@gmail.com</span>
     </p>
 </div>
 
@@ -91,22 +91,39 @@
 <div class="portafolio-div">
     <h2>Portafolio</h2>
     
-    <div>
-        <img src="" alt="Proyecto">
-        <h3>Nombre</h3>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
-        <i class="fa-brands fa-html5"></i>
-        <i class="fa-brands fa-css3-alt"></i>
-        <i class="fa-brands fa-js"></i>
-    </div>
+    <div class="portafolio-proyecto">
+        <div class="proyecto-arc">
+            <img class="portafolio-img" src="img/img1.PNG" alt="Proyecto">
+            <div class="proyecto-info">
+                <h3 class="proyecto-nombre">Mercado libre</h3>
+                <p class="proyecto-desc">E-comerce para que los propios usuarios puedan publicar y vender sus propios productos. [Página ilustrativa, no fue creado por mi]</p>
+                <i class="fa-brands fa-html5 html"></i>
+                <i class="fa-brands fa-css3-alt css"></i>
+                <i class="fa-brands fa-js js"></i>
+            </div>
+        </div>
 
-    <div>
-        <img src="" alt="Proyecto">
-        <h3>Nombre</h3>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
-        <i class="fa-brands fa-html5"></i>
-        <i class="fa-brands fa-css3-alt"></i>
-        <i class="fa-brands fa-js"></i>
+        <div class="proyecto-arc">
+            <img class="portafolio-img" src="img/img2.PNG" alt="Proyecto">
+            <div class="proyecto-info">
+                <h3 class="proyecto-nombre">Domestika</h3>
+                <p class="proyecto-desc">E-comerce de cursos para el desarrollo personal y creativo. [Página ilustrativa, no fue creado por mi]</p>
+                <i class="fa-brands fa-html5 html"></i>
+                <i class="fa-brands fa-css3-alt css"></i>
+                <i class="fa-brands fa-js js"></i>
+            </div>
+        </div>
+
+        <div class="proyecto-arc">
+            <img class="portafolio-img" src="img/img3.PNG" alt="Proyecto">
+            <div class="proyecto-info">
+                <h3 class="proyecto-nombre">Rate your music</h3>
+                <p class="proyecto-desc">Blog donde cualquiera puede publicar una reseña sobre cualquier album. [Página ilustrativa, no fue creado por mi]</p>
+                <i class="fa-brands fa-html5 html"></i>
+                <i class="fa-brands fa-css3-alt css"></i>
+                <i class="fa-brands fa-js js"></i>
+            </div>
+        </div>
     </div>
 </div>
 </section>
@@ -118,14 +135,14 @@
     <h2>Educación</h2>
 
     <div>
-        <h3>Argentina programa 4.0 [Primera etapa]</h3>
-        <p>Primeros pasos en el desarrollo frontend - Ticmas Academy</p>
+        <h3 class="edu-nombre">Argentina programa 4.0 [Primera etapa]</h3>
+        <p class="edu-curso">Primeros pasos en el desarrollo frontend - Ticmas Academy</p>
         <p>2023 - En progreso</p>
     </div>
 
     <div>
-        <h3>Tecnicatura en programación orientado a administración</h3>
-        <p>Escuela de comercio de Bahia Blanca</p>
+        <h3 class="edu-nombre">Tecnicatura en programación orientado a administración</h3>
+        <p class="edu-curso">Escuela de comercio de Bahia Blanca</p>
         <p>2023 - En progreso</p>
     </div>
 </div>
@@ -135,18 +152,18 @@
 
 <section class="skills" id="skills">
 <div class="skills-div">
-    <h2>Skills</h2>
+    <h2>Habilidades</h2>
 
-    <div>
-        <h3>Lenguajes de desarrollo</h3>
-        <i class="fa-brands fa-html5"></i>
-        <i class="fa-brands fa-css3-alt"></i>
-        <i class="fa-brands fa-js"></i>
+    <div class="skills-prog">
+        <h3>Lenguajes de desarrollo:</h3>
+        <i class="fa-brands fa-html5 html"></i>
+        <i class="fa-brands fa-css3-alt css"></i>
+        <i class="fa-brands fa-js js"></i>
     </div>
 
     <div>
-        <h3>Frameworks y Librerias</h3>
-        <i class="fa-brands fa-bootstrap"></i>
+        <h3>Frameworks y Librerias:</h3>
+        <i class="fa-brands fa-bootstrap boot"></i>
     </div>
 </div>
 </section>
@@ -157,24 +174,26 @@
 <div class="contacto-div">
     <h2>Contactame!</h2>
 
-    <div>
-        <p><i class="fa-sharp fa-regular fa-envelope"></i> Email: manga.code.crafter@gmail.com</p>
-        <p><i class="fa-brands fa-whatsapp"></i> Whatsapp: +5492914423524</p>
-        <p><i class="fa-brands fa-linkedin"></i> Linkedin: Manuel Gutierrez</p>
+    <div class="contacto-pricipal">
+        <p class="contacto-p"><i class="fa-sharp fa-regular fa-envelope"></i> Email: manga.code.crafter@gmail.com</p>
+        <p class="contacto-p"><i class="fa-brands fa-whatsapp"></i> Whatsapp: +5492914423524</p>
+        <p class="contacto-p"><i class="fa-brands fa-linkedin"></i> Linkedin: Manuel Gutierrez</p>
     </div>
 
     <div>
         <p>Otros medios:</p>
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" class="inicio-social"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="inicio-social"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="#" class="inicio-social"><i class="fa-brands fa-twitter"></i></a>
     </div>
 
-    <div>
+    <div class="contacto-des">
         <h3>Sitio desarrollado con:</h3>
-        <i class="fa-brands fa-html5"></i>
-        <i class="fa-brands fa-css3-alt"></i>
-        <i class="fa-brands fa-js"></i>
+        <div class="contacto-desarrollo">
+            <i class="fa-brands fa-html5 html"></i>
+            <i class="fa-brands fa-css3-alt css"></i>
+            <i class="fa-brands fa-js js"></i>
+        </div>
     </div>
 </div>
 </section>

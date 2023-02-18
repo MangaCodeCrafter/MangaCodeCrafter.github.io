@@ -233,6 +233,21 @@ p{
 border: 1px solid black;
 }
 
+.p-frase{
+    color: var(--c-contraste);
+    font-size: 1.5rem;
+    font-family: var(--t-titulos);
+}
+
+.p-principal{
+    color: var(--c-secundario);
+    font-weight: 900;
+}
+
+.p-contacto{
+    font-size: 1.15rem;
+}
+
 /*Portafolio */
 
 .portafolio{
@@ -243,6 +258,53 @@ border: 1px solid black;
 
 .portafolio-div{
     border: 1px solid black;
+}
+
+.portafolio-proyecto{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.proyecto-arc{
+    border: 3px solid var(--c-contraste-sec);
+    margin: 1rem;
+    max-width: 25rem;
+}
+
+.portafolio-img{
+    width: 100%;
+    height: auto;
+}
+
+.proyecto-info{
+    margin: 1rem;
+}
+
+.proyecto-nombre{
+    font-family: var(--t-titulos);
+    color: var(--c-contraste);
+    letter-spacing: 0.1em;
+}
+
+.proyecto-desc{
+    font-weight: 900;
+}
+
+.proyecto-arc i{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.html{
+    color: #FF5733;
+}
+
+.css{
+    color: #294de4;
+}
+
+.js{
+    color: #f0db4f;
 }
 
 /*Educación */
@@ -257,6 +319,18 @@ border: 1px solid black;
     border: 1px solid black;
 }
 
+.edu-nombre{
+    color: var(--c-contraste);
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.edu-curso{
+    margin-top: 0.5rem;
+    color: var(--c-contraste-sec);
+    font-weight: 900;
+}
+
 /* Habilidades */
 
 .skills{
@@ -269,6 +343,19 @@ border: 1px solid black;
     border: 1px solid black;
 }
 
+.skills-div i{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.skills-div h3{
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.boot{
+    color: #563d7c;
+}
 /* Contacto */
 
 .contacto{
@@ -279,4 +366,25 @@ border: 1px solid black;
 
 .contacto-div{
     border: 1px solid black;
+}
+
+.contacto-pricipal p{
+    font-weight: 900;
+}
+
+.contacto-pricipal i{
+    color: var(--c-contraste-sec);
+}
+
+.contacto-p{
+    font-size: 1.5rem;
+}
+
+.contacto-desarrollo{
+    font-size: 3rem;
+    margin-left: 1rem;
+}
+
+.contacto-desarrollo i {
+    margin-left: 1.5rem;
 }
