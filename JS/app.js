@@ -38,3 +38,15 @@ document.getElementById("skills-app").addEventListener("click", abrirMenu);
 document.getElementById("skills-app").addEventListener("click", movimientoBarra);
 document.getElementById("contacto-app").addEventListener("click", abrirMenu);
 document.getElementById("contacto-app").addEventListener("click", movimientoBarra);
+
+//Descargar pdf
+
+function descargarPDF() {
+    let link = document.createElement("a");
+    link.href = "docs\Curriculum vitae Gutierrez Manuel.pdf";
+    link.download = "Curriculum vitae Gutierrez Manuel.pdf";
+    link.target = "_blank";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
