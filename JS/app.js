@@ -11,3 +11,30 @@ function movimientoBarra(){
     linea2_barra_menu.classList.toggle("activarlinea2_barra_menu");
     linea3_barra_menu.classList.toggle("activarlinea3_barra_menu");
 };
+
+//Menu movil
+
+document.querySelector(".barra_menu").addEventListener("click", abrirMenu);
+
+let encabezado = document.querySelector(".encabezado");
+let encabezado_img = document.querySelector(".encabezado-img");
+let encabezado_lista = document.querySelector(".encabezado-lista");
+
+function abrirMenu(){
+    encabezado.classList.toggle("encabezado-a");
+    encabezado_img.classList.toggle("encabezado-img-a");
+    encabezado_lista.classList.toggle("encabezado-lista-a");
+}
+
+document.getElementById("inicio-app").addEventListener("click", abrirMenu);
+document.getElementById("inicio-app").addEventListener("click", movimientoBarra);
+document.getElementById("sobre-mi-app").addEventListener("click", abrirMenu);
+document.getElementById("sobre-mi-app").addEventListener("click", movimientoBarra);
+document.getElementById("portafolio-app").addEventListener("click", abrirMenu);
+document.getElementById("portafolio-app").addEventListener("click", movimientoBarra);
+document.getElementById("educacion-app").addEventListener("click", abrirMenu);
+document.getElementById("educacion-app").addEventListener("click", movimientoBarra);
+document.getElementById("skills-app").addEventListener("click", abrirMenu);
+document.getElementById("skills-app").addEventListener("click", movimientoBarra);
+document.getElementById("contacto-app").addEventListener("click", abrirMenu);
+document.getElementById("contacto-app").addEventListener("click", movimientoBarra);
