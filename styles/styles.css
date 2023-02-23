@@ -94,7 +94,7 @@ p{
 
     .encabezado{
         width: 100%;
-        height: 10vh;
+        height: 85.39px;
         z-index: 10;
         transition: all 0.3s;
     }
@@ -176,7 +176,6 @@ p{
     display: flex;
     flex-direction: column;
     margin-left: 20rem;
-    width: 75%;
     flex-wrap: wrap;
     position: relative;
 }
@@ -349,14 +348,21 @@ border: 1px solid black;
 
 .portafolio{
     display: flex;
+    min-height: 100vh;
     align-items: center;
 }
 
-@media screen and (min-width: 767px){
+/*@media screen and (max-width: 1198px) {
+    .portafolio{
+        margin-bottom: 40rem;
+    }
+}*/
+
+/*@media screen and (min-width: 767px){
     .portafolio{
         height: 100vh;
     }
-}
+}*/
 
 .portafolio-div{
     border: 1px solid black;
