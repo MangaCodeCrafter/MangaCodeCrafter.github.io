@@ -196,10 +196,6 @@ p{
     align-items: center;
 }
 
-.inicio-div{
-    border: 1px solid black;
-}
-
 .inicio-h1-cc{
     color: var(--c-contraste-sec);
 }
@@ -283,7 +279,7 @@ p{
     border-radius: 50%;
     font-size: 1.5rem;
     text-decoration: none;
-    margin-left: 1.5rem;
+    margin-left: 0.5rem;
     transition: .3s ease all;
     position: relative;
     overflow: hidden;
@@ -325,10 +321,6 @@ p{
     align-items: center;
 }
 
-.sobre-mi-div{
-border: 1px solid black;
-}
-
 .p-frase{
     color: var(--c-contraste);
     font-size: 1.5rem;
@@ -338,6 +330,10 @@ border: 1px solid black;
 .p-principal{
     color: var(--c-secundario);
     font-weight: 900;
+}
+
+.p-principal-color{
+    color: var(--c-contraste-sec);
 }
 
 .p-contacto{
@@ -364,10 +360,6 @@ border: 1px solid black;
     }
 }*/
 
-.portafolio-div{
-    border: 1px solid black;
-}
-
 .portafolio-proyecto{
     display: flex;
     flex-wrap: wrap;
@@ -392,6 +384,11 @@ border: 1px solid black;
     font-family: var(--t-titulos);
     color: var(--c-contraste);
     letter-spacing: 0.1em;
+}
+
+.proyecto-a{
+    color: var(--c-contraste);
+    text-decoration: none;
 }
 
 .proyecto-desc{
@@ -423,10 +420,6 @@ border: 1px solid black;
     align-items: center;
 }
 
-.educacion-div{
-    border: 1px solid black;
-}
-
 .edu-nombre{
     color: var(--c-contraste);
     font-size: 2.5rem;
@@ -445,10 +438,6 @@ border: 1px solid black;
     height: 100vh;
     display: flex;
     align-items: center;
-}
-
-.skills-div{
-    border: 1px solid black;
 }
 
 .skills-div i{
@@ -472,10 +461,6 @@ border: 1px solid black;
     align-items: center;
 }
 
-.contacto-div{
-    border: 1px solid black;
-}
-
 .contacto-pricipal p{
     font-weight: 900;
 }
@@ -494,5 +479,5 @@ border: 1px solid black;
 }
 
 .contacto-desarrollo i {
-    margin-left: 1.5rem;
+    margin-left: 0.5rem;
 }

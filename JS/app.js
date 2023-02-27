@@ -43,8 +43,8 @@ document.getElementById("contacto-app").addEventListener("click", movimientoBarr
 
 function descargarPDF() {
     let link = document.createElement("a");
-    link.href = "docs\Curriculum vitae Gutierrez Manuel.pdf";
-    link.download = "Curriculum vitae Gutierrez Manuel.pdf";
+    link.href = "docs/curriculum vitae gutierrez manuel.pdf";
+    link.download = "curriculum vitae gutierrez manuel.pdf";
     link.target = "_blank";
     document.body.appendChild(link);
     link.click();
